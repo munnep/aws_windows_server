@@ -2,7 +2,7 @@
 
 This repository can be used to create a Windows server with a public IP which can only be accessed by the public IP address you use to create the environment. 
 
-You can use this windows server to test things on Windows if your primary machine is Linux/MacOS. 
+You can use this Windows server to test things on Windows if your primary machine is Linux/MacOS. 
 
 - Create a VPC network with a subnet, security group, internet gateway
 - Create a EC2 instance with a Windows image
@@ -32,7 +32,7 @@ git clone https://github.com/munnep/aws_windows_server.git
 cd aws_windows_server
 ```
 - Set your AWS credentials
-```
+```sh
 export AWS_ACCESS_KEY_ID=
 export AWS_SECRET_ACCESS_KEY=
 export AWS_SESSION_TOKEN=
