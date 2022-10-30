@@ -1,6 +1,8 @@
 # aws_windows_server
 
-This repository can be used to create a Windows server with a public IP which can only be accessed by the public IP address you use to create the environment. It is easy to have a windows server to test things with if you primary machine is Linux/MacOS. 
+This repository can be used to create a Windows server with a public IP which can only be accessed by the public IP address you use to create the environment. 
+
+You can use this windows server to test things on Windows if your primary machine is Linux/MacOS. 
 
 - Create a VPC network with a subnet, security group, internet gateway
 - Create a EC2 instance with a Windows image
