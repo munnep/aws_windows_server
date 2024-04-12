@@ -42,7 +42,7 @@ export AWS_SESSION_TOKEN=
 tag_prefix               = "patrick-windows"                          # TAG prefix for names to easily find your AWS resources
 region                   = "eu-north-1"                               # Region to create the environment
 vpc_cidr                 = "10.229.0.0/16"                            # subnet mask that can be used 
-ami                      = "ami-0ea09628f60446bad"                    # AMI of Windows Server 2022 
+ami                      = "ami-0aa99174e2f8adfb4"                    # AMI of Windows Server 2022 
 public_key               = "ssh-rsa AAAAB3Nza"                        # The public key for you to connect to the server over SSH
 ```
 - Terraform initialize
